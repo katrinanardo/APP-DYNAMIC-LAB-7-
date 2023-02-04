@@ -7,25 +7,20 @@
         <div class="resume-item">
           <!--Style Binding-->
           <h3 [style.text-transform]="text">Senior high school</h3>
-          <h4>Holy Angel University</h4>
-          <h5>2018 - 2020</h5>
-          <p>
-            #1 Holy Angel Avenue, Sto. Rosario, Angeles City, Philippines 2009
-          </p>
+
+          <!--ngFor-->
+          <ul>
+            <li *ngFor="let item of shs">{{ item }}</li>
+          </ul>
         </div>
       </div>
       <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
         <div class="resume-item">
           <!--Style Binding-->
           <h3 [style.text-transform]="text">college</h3>
-          <h4>Holy Angel University</h4>
-          <h5>2020 - Present</h5>
-          <p>
-            <em
-              >#1 Holy Angel Avenue, Sto. Rosario, Angeles City, Philippines
-              2009
-            </em>
-          </p>
+          <ul>
+            <li *ngFor="let item of college">{{ item }}</li>
+          </ul>
         </div>
       </div>
       <!--Event Binding-->

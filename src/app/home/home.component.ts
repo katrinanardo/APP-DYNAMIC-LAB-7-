@@ -9,6 +9,9 @@ export class HomeComponent implements OnInit {
   name = 'Katrina Nardo';
   colorClass = 'colorClass';
 
+  //ngStyle
+  color = '#ff6b6b';
+
   constructor() {}
 
   ngOnInit() {}

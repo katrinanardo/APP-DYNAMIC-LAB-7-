@@ -10,13 +10,17 @@
           <h5>(+63) 9258 441 5478</h5>
         </div>
       </div>
-      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-        <div class="resume-item">
-          <h3>Rose Pineda</h3>
-          <h4>Web Developer</h4>
-          <h5>(+63) 9258 441 5478</h5>
+
+      <!--ngIf-->
+      <ng-template [ngIf]="showElement">
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="resume-item">
+            <h3>Rose Pineda</h3>
+            <h4>Web Developer</h4>
+            <h5>(+63) 9258 441 5478</h5>
+          </div>
         </div>
-      </div>
+      </ng-template>
     </div>
   </div>
 </div>

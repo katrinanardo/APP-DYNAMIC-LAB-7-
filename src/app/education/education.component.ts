@@ -14,7 +14,17 @@ export class EducationComponent implements OnInit {
   text = 'uppercase';
 
   //ngFor
-  items = ['Item 1', 'Item 2', 'Item 3', 'Item 4', 'Item 5'];
+  shs = [
+    'Holy Angel University',
+    '2018 - 2020',
+    '#1 Holy Angel Avenue, Sto. Rosario, Angeles City, Philippines 2009',
+  ];
+
+  college = [
+    'Holy Angel University',
+    '2020 - Present',
+    '#1 Holy Angel Avenue, Sto. Rosario, Angeles City, Philippines 2009',
+  ];
 
   showData($event: any) {
     console.log('Button is clicked.');
