@@ -1,0 +1,22 @@
+#section2 {
+  height: 503px;
+  display: inline-block;
+  width: 50%;
+  margin-top: 250px;
+  margin-left: 100px;
+  max-height: 100%;
+}
+
+.about {
+  display: block;
+  position: relative;
+  margin-left: 50px;
+  margin-top: 200px;
+  color: #292f36;
+  width: 40%;
+}
+
+.about h1 {
+  font-size: 80px;
+  color: #292f36;
+}

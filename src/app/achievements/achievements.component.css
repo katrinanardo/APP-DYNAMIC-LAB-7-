@@ -1,0 +1,18 @@
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.resume-item {
+  margin-top: 30px;
+}
+#section5 {
+  height: 603px;
+  display: inline-block;
+  width: 100%;
+  margin-top: 150px;
+}

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#section1 {
+  margin-top: 50px;
+  height: 698px;
+  display: inline-block;
+  width: 100%;
+}
+
+.intro {
+  display: block;
+  float: right;
+  margin: 300px 80px auto 50px;
+  justify-content: right;
+  text-align: right;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.intro h1 {
+  font-size: 80px;
+  display: flex;
+  justify-content: flex-end;
+}
